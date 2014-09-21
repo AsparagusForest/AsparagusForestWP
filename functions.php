@@ -1,6 +1,6 @@
 <?php
     require_once TEMPLATEPATH . '/lib/Themater.php';
-    $theme = new Themater('Sanita');
+    $theme = new Themater('AsparagusForestWP');
     $theme->options['includes'] = array('featuredposts', 'social_profiles');
     
     $theme->options['plugins_options']['featuredposts'] = array('hook' => 'main_before', 'image_sizes' => '930px. x 300px.', 'effect' => 'fade');
