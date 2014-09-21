@@ -45,17 +45,7 @@
                 }
             ?> 
         </div>
-        
-        <?php /* 
-            All links in the footer should remain intact. 
-            These links are all family friendly and will not hurt your site in any way. 
-            Warning! Your site may stop working if these links are edited or deleted 
-            
-            You can buy this theme without footer links online at http://fthemes.com/buy/?theme=sanita
-        */ ?>
-        
-        <div id="credits">Powered by <a href="http://wordpress.org/"><strong>WordPress</strong></a> | Theme Designed by: <?php echo wp_theme_credits(0); ?>  | Thanks to <?php echo wp_theme_credits(1); ?>, <?php echo wp_theme_credits(2); ?> and <?php echo wp_theme_credits(3); ?></div><!-- #credits -->
-        
+
     </div><!-- #footer -->
     
 </div><!-- #container -->
