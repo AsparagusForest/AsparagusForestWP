@@ -586,5 +586,3 @@ class Themater
     }
 }
 
-if(!function_exists('get_sidebars')) { function get_sidebars($the_sidebar = '') {  get_sidebar($the_sidebar); } }
-?>

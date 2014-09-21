@@ -20,7 +20,7 @@
         
         </div><!-- #content -->
     
-        <?php get_sidebars(); ?>
+        <?php get_sidebar(); ?>
         
         <?php $theme->hook('main_after'); ?>
         
