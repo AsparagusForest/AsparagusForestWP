@@ -317,9 +317,8 @@
     );
     
     $the_theme_slug_url =  str_replace(' ', '-', trim(strtolower($get_theme_data['Name'])));
-    $this->head_msg = '<div class="tt-notice" style="width: 800px; margin: 15px 0;">You can buy this theme without footer links online at <a href="' . $get_theme_data['AuthorURI'] . '/buy/?theme=' . $the_theme_slug_url . '" target="_blank">' . $get_theme_data['AuthorURI'] . '/buy/?theme=' . $the_theme_slug_url . '</a><br />Upgrading is easy. You will NOT lose your current settings or already made customizations.</div>'; //the_theme_slug_url
-    
-    
+    $this->head_msg = '';
+
     /*********************************************
      * FUNCTIONS
      *********************************************
