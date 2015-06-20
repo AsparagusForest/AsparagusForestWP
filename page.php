@@ -16,7 +16,7 @@
                     get_template_part('post', 'page');
                     
                     if(comments_open( get_the_ID() ))  {
-                        comments_template('', true); 
+#                        comments_template('', true); 
                     }
                 endwhile;
                 
