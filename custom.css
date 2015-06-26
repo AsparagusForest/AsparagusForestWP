@@ -1,0 +1,25 @@
+/*
+Welcome to Custom CSS!
+
+To learn how this works, see http://wp.me/PEmnE-Bt
+*/
+body,
+.widget-container {
+	font-size: 16px;
+}
+
+.widgettitle {
+	font-size: 18px;
+}
+
+.title {
+	font-size: 18px;
+}
+
+li.hide_this_item {
+	display: none;
+}
+
+#sidebar-primary ul.sub-menu {
+	padding-top: 10px;
+}
